@@ -23,8 +23,21 @@ class Dog(AbstractAnimal):
     
     def getName(self):
         return self.name
+
+class Cat(AbstractAnimal):
+    def __init__(self):
+        self.name="cat"
+        print("instantianting a derived class")
         
+    def makeSound(self):
+        return "miau!"
+    
+    def getName(self):
+        return self.name
+                
 if __name__ == "__main__":
     animal = Dog()
     print("animal: {:s}, hace sonido {:s}".format(animal.getName(),animal.makeSound()))
  
+    animal = Cat()
+    print("animal: {:s}, hace sonido {:s}".format(animal.getName(),animal.makeSound()))
