@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.eggs/
+.env
+.venv/
+env/
+ENV/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+instance/
+.webassets-cache
+.pytest_cache/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pyo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# MacOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+*.log
+
+# Allow local overrides
+!.gitignore.local
